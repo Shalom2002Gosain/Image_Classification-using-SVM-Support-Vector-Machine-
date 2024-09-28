@@ -16,15 +16,15 @@ To implement a Support Vector Machine (SVM) for classifying images of cats and d
 * Normalize the pixel values to a range of [0, 1] or [-1, 1].
 * Flatten the images into 1D vectors since SVM doesn't work on image matrices directly.
 #
-## Prepare the Data:
+## Prepare the Data:-
 * Label the images (e.g., 0 for cats and 1 for dogs).
 * Split the data into training and testing sets.
 #
-## Train the SVM Model:
+## Train the SVM Model:-
 * Use SVC from scikit-learn to create an SVM classifier.
 * Train the model on the flattened image data.
 #
-## Evaluate the Model:
+## Evaluate the Model:-
 * Test the trained model on unseen data and compute the accuracy.
 * Optionally, use cross-validation for more robust evaluation.
 #
